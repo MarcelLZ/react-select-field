@@ -1,9 +1,7 @@
-import React from 'react'
+import SelectField from './select'
+import Option from './option'
 
-const SelectField = () => (
-  <select>
-    <option>Init</option>
-  </select>
-)
-
-export default SelectField
+export {
+  SelectField,
+  Option
+}
