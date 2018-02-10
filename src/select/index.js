@@ -18,7 +18,7 @@ const SelectField = ({ label, value, onChange, error, children }) => (
 
       <span className='select-highlight' />
       <span className='select-bar' />
-      <span class="select-error">{ error }</span>
+      <span className="select-error">{ error }</span>
       <label className='select-label'>{ label }</label>
     </div>
   </SelectContainer>

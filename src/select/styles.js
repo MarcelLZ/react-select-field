@@ -101,12 +101,16 @@ export default styled.div`
 
   .select-error {
     margin: 2px;
-    color: red;
+    color: #FF0000;
     font-size: 12px
   }
 
   .has-error > .select-bar:before, .has-error > .select-bar:after {
-    background: red;
+    background: #FF0000;
     width: 50%;
+  }
+
+  .has-error > .select-label {
+    color: #FF0000;
   }
 `
