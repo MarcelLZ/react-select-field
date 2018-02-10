@@ -4,6 +4,7 @@ export default styled.div`
   .select {
     width: 100%;
     position: relative;
+    margin-top: 16px;
   }
 
   .select-text {
@@ -54,8 +55,8 @@ export default styled.div`
   }
 
   .select-text:focus ~ .select-label, .select-text:valid ~ .select-label {
-    color: #2F80ED;
-    top: -20px;
+    color: rgb(63,81,181);
+    top: -10px;
     transition: 0.2s ease all;
     font-size: 14px;
   }
@@ -96,5 +97,16 @@ export default styled.div`
     left: 0;
     pointer-events: none;
     opacity: 0.5;
+  }
+
+  .select-error {
+    margin: 2px;
+    color: red;
+    font-size: 12px
+  }
+
+  .has-error > .select-bar:before, .has-error > .select-bar:after {
+    background: red;
+    width: 50%;
   }
 `
