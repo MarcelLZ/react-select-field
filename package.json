@@ -1,5 +1,5 @@
 {
-  "name": "react-select-field",
+  "name": "@marcellz/react-select-field",
   "version": "1.0.0",
   "description": "Simple select field component",
   "browser": "dist/main.js",
