@@ -6,7 +6,7 @@ const Option = ({ value, children }) => (
 )
 
 Option.propTypes = {
-  value: PropTypes.string,
+  value: PropTypes.any,
   children: PropTypes.node
 }
 
